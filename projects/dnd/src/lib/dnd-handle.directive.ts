@@ -3,7 +3,8 @@ import { DndEvent } from "./dnd-utils";
 import { DndDraggableDirective } from "./dnd-draggable.directive";
 
 @Directive( {
-  selector: "[dndHandle]"
+  selector: "[dndHandle]",
+  standalone: true
 } )
 export class DndHandleDirective {
 

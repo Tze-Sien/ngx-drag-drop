@@ -6,9 +6,7 @@ import { DndHandleDirective } from "./dnd-handle.directive";
 
 @NgModule( {
   imports: [
-    CommonModule
-  ],
-  declarations: [
+    CommonModule,
     DndDraggableDirective,
     DndDropzoneDirective,
     DndHandleDirective,

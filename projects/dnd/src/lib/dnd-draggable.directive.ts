@@ -19,7 +19,8 @@ import { dndState, endDrag, startDrag } from "./dnd-state";
 import { EffectAllowed } from "./dnd-types";
 
 @Directive( {
-  selector: "[dndDragImageRef]"
+  selector: "[dndDragImageRef]",
+  standalone: true
 } )
 export class DndDragImageRefDirective {
 
@@ -29,7 +30,8 @@ export class DndDragImageRefDirective {
 }
 
 @Directive( {
-  selector: "[dndDraggable]"
+  selector: "[dndDraggable]",
+  standalone: true
 } )
 export class DndDraggableDirective implements AfterViewInit, OnDestroy {
 
