@@ -31,7 +31,8 @@ export interface DndDropEvent {
 }
 
 @Directive( {
-  selector: "[dndPlaceholderRef]"
+  selector: "[dndPlaceholderRef]",
+  standalone: true
 } )
 export class DndPlaceholderRefDirective {
 
@@ -40,7 +41,8 @@ export class DndPlaceholderRefDirective {
 }
 
 @Directive( {
-  selector: "[dndDropzone]"
+  selector: "[dndDropzone]",
+  standalone: true
 } )
 export class DndDropzoneDirective implements AfterViewInit, OnDestroy {
 

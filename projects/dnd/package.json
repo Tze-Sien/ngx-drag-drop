@@ -1,5 +1,5 @@
 {
-  "name": "ngx-drag-drop",
+  "name": "ngx-drag-drop-standalone",
   "version": "15.0.0",
   "description": "Angular directives using the native HTML Drag And Drop API",
   "repository": {
